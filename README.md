@@ -1,26 +1,26 @@
 # WhatsappGatewayServices
 
-Module untuk mengirim notifikasi WhatsApp menggunakan Whatsapp gateway service dengan HTTP
-module ini di buat untuk Framework codeigniter atau OOP PHP untuk mengirim pemneritahuan lewat WhatsApp service dengan POST data
+Module for sending WhatsApp notifications using a WhatsApp gateway service with HTTP.
+This module is created for the CodeIgniter framework or OOP PHP to send notifications via the WhatsApp service using POST data.”
 
 # Requirment
 
 1. composer
 2. nodeJs
 3. php-7.4 keatas
-4. Whatsapp yang sudah terinstall di HP Anda untuk proses scan
+4. Whatsapp that has been installed on your cellphone for the scanning process
 
-# Cara Install
+# How to Install
 
-Anda membutuhkan paket composer untuk memasang program ini, jika Anda belum memiliki composer silahkan download dan install di https://getcomposer.org/
+You need the composer package to install this program, if you don't have composer please download and install it at https://getcomposer.org/
 
     composer require pranasucitra/whatsapp-helper:dev-main
 
-# Contoh Penggunaan
+# Usage Examples
 
-Berikut adalah contoh penggunaan pada PHP
+The following is an example of use in PHP
 
-    /* ------------------------ contoh penggunaan pertama ----------------------- */
+    /* ------------------------ First Example ----------------------- */
 
     use pranasucitra\WhatsappGatewayServices\WhatsAppSG;
 
@@ -28,16 +28,16 @@ Berikut adalah contoh penggunaan pada PHP
     $wa->setPort('6789')
         ->setSenderPhone('081395250814')
         ->setRecepient('085xxxxxxxxx')
-        ->setMessage('test kirim wa?');
+        ->setMessage('test send wa?');
 
     var_dump($wa->SendText());
 
     /**
-    * jika anda menggunakan nomor diluar indonesia
-    * Anda dapat mengatur locale dengan cara
+    * if you use a number outside Indonesia
+    * You can set the locale in the following way
     *
-    * catatan:
-    * lihat kode negara aplha-2-code di link berikut
+    * Note:
+    * see alpha-2-code country codes in the following link
     * https://www.iban.com/country-codes
     */
     $wa     = new WhatsAppSG();
@@ -45,14 +45,14 @@ Berikut adalah contoh penggunaan pada PHP
     	->setLocale('US')
     	->setSenderPhone('081395250814')
     	->setRecepient('085xxxxxxxxx')
-    	->setMessage('test kirim wa?');
+    	->setMessage('test send wa?');
 
     var_dump($wa->SendText());
 
 
-    /* ------------------------- contoh penggunaan kedua ------------------------ */
+    /* ------------------------- Second Example ------------------------ */
 
-    $wa     = new WhatsAppSG('085xxxxxxxxx', 'hallo ini coba kirim whatsapp');
+    $wa     = new WhatsAppSG('085xxxxxxxxx', 'Hello, try sending this on whatsapp');
     $wa->setBaseUrl('http://127.0.0.1')
         ->setPort('6789')
         ->setSenderPhone('081395250814');
