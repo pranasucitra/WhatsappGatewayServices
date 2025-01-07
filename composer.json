@@ -18,7 +18,7 @@
   ],
   "license": "MIT",
   "minimum-stability": "dev",
-  "name": "pranasucitra/whatsapp-helper",
+  "name": "pranasucitra/whatsapp-gateway-services",
   "prefer-stable": true,
   "readme": "readme.md",
   "require": {

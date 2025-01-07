@@ -14,7 +14,7 @@ This module is created for the CodeIgniter framework or OOP PHP to send notifica
 
 You need the composer package to install this program, if you don't have composer please download and install it at https://getcomposer.org/
 
-    composer require pranasucitra/whatsapp-helper:dev-main
+    composer require pranasucitra/whatsapp-gateway-services:dev-main
 
 # Usage Examples
 
