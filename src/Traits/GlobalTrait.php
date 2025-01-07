@@ -3,14 +3,14 @@
 * File: GlobalTrait.php
 * Project: Traits
 * Created Date: Mo Oct 2022
-* Author: Ayatulloh Ahad R
-* Email: ayatulloh@indiega.net
+* Author: Lingga Pranasucitra
+* Email: lingga.pranasucitra@gmail.com
 * Phone: 081395250814
  * -------------------------
  * Last Modified: Mon Oct 03 2022
- * Modified By: Ayatulloh Ahad R
+ * Modified By: Lingga Pranasucitra
  * -------------------------
- * Copyright (c) 2022 Indiega Network 
+ * Copyright (c) 2025 Indiega Network 
  
  * -------------------------
  * HISTORY:
@@ -36,7 +36,7 @@ trait GlobalTrait
      * @param  array $params
      *
      * @return void            
-     * @author Ayatulloh Ahad R <ayatulloh@indiega.net>
+     * @author Lingga Pranasucitra <lingga.pranasucitra@gmail.com>
      * @throws Exception
      */
     public function _exce($endpoint, $params = [])

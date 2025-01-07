@@ -6,31 +6,31 @@ trait GetSetTrait
 {
     /**
      * @var string
-     * @author Ayatulloh Ahad R <ayatulloh@indiega.net>
+     * @author Lingga Pranasucitra <lingga.pranasucitra@gmail.com>
      */
     protected $baseUrl      = 'http://127.0.0.1';
 
     /**
      * @var int
-     * @author Ayatulloh Ahad R <ayatulloh@indiega.net>
+     * @author Lingga Pranasucitra <lingga.pranasucitra@gmail.com>
      */
     protected $port         = 6789;
 
     /**
      * @var int
-     * @author Ayatulloh Ahad R <ayatulloh@indiega.net>
+     * @author Lingga Pranasucitra <lingga.pranasucitra@gmail.com>
      */
     protected $senderPhone;
 
     /**
      * @var int
-     * @author Ayatulloh Ahad R <ayatulloh@indiega.net>
+     * @author Lingga Pranasucitra <lingga.pranasucitra@gmail.com>
      */
     protected  $recepient;
 
     /**
      * @var string
-     * @author Ayatulloh Ahad R <ayatulloh@indiega.net>
+     * @author Lingga Pranasucitra <lingga.pranasucitra@gmail.com>
      */
     protected $message;
 
