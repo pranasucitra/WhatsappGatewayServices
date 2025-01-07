@@ -1,6 +1,6 @@
 <?php
 
-namespace pranasucitra\WhatsAppHelper\Traits;
+namespace pranasucitra\WhatsappGatewayServices\Traits;
 
 trait GetSetTrait
 {

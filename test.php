@@ -1,11 +1,11 @@
 <?php
 /*
  * File: test.php
- * Project: WhatsAppHelper
+ * Project: WhatsappGatewayServices
  * Created Date: Mo Oct 2022
  * Author: Ayatulloh Ahad R
  * Email: ayatulloh@indiega.net
- * Phone: 085791555506
+ * Phone: 081395250814
  * -------------------------
  * Last Modified: Mon Oct 03 2022
  * Modified By: Ayatulloh Ahad R
@@ -19,7 +19,7 @@
  * ----------	---	---------------------------------------------------------
  */
 
-use pranasucitra\WhatsAppHelper\WhatsAppSG;
+use pranasucitra\WhatsappGatewayServices\WhatsAppSG;
 
 require 'vendor/autoload.php';
 
@@ -27,8 +27,8 @@ require 'vendor/autoload.php';
 
 $wa     = new WhatsAppSG();
 $wa->setPort('6789')
-    ->setSenderPhone('085791555506')
-    ->setRecepient('082255879157')
+    ->setSenderPhone('081395250814')
+    ->setRecepient('085xxxxxxxxx')
     ->setMessage('test kirim wa?');
 
 var_dump($wa->SendText());
@@ -44,17 +44,17 @@ var_dump($wa->SendText());
 $wa     = new WhatsAppSG();
 $wa->setPort('6789')
     ->setLocale('US')
-    ->setSenderPhone('085791555506')
-    ->setRecepient('082255879157')
+    ->setSenderPhone('081395250814')
+    ->setRecepient('085xxxxxxxxx')
     ->setMessage('test kirim wa?');
 
 var_dump($wa->SendText());
 
 /* ------------------------- contoh penggunaan kedua ------------------------ */
 
-$wa     = new WhatsAppSG('082255879157', 'hallo ini coba kirim whatsapp');
+$wa     = new WhatsAppSG('085xxxxxxxxx', 'hallo ini coba kirim whatsapp');
 $wa->setBaseUrl('http://127.0.0.1')
     ->setPort('6789')
-    ->setSenderPhone('085791555506');
+    ->setSenderPhone('081395250814');
 
 $result     = $wa->SendText();

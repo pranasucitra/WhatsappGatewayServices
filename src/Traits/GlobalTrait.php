@@ -5,7 +5,7 @@
 * Created Date: Mo Oct 2022
 * Author: Ayatulloh Ahad R
 * Email: ayatulloh@indiega.net
-* Phone: 085791555506
+* Phone: 081395250814
  * -------------------------
  * Last Modified: Mon Oct 03 2022
  * Modified By: Ayatulloh Ahad R
@@ -19,7 +19,7 @@
  * ----------	---	---------------------------------------------------------
  */
 
-namespace pranasucitra\WhatsAppHelper\Traits;
+namespace pranasucitra\WhatsappGatewayServices\Traits;
 
 use Exception;
 use GuzzleHttp\Client;

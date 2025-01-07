@@ -9,10 +9,10 @@
   ],
   "autoload": {
     "psr-4": {
-      "pranasucitra\\WhatsAppHelper\\": "src/"
+      "pranasucitra\\WhatsappGatewayServices\\": "src/"
     }
   },
-  "homepage": "https://github.com/pranasucitra/WhatsAppHelper",
+  "homepage": "https://github.com/pranasucitra/WhatsappGatewayServices",
   "keywords": [
     "whatsapp"
   ],

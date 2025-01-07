@@ -5,7 +5,7 @@
  * Created Date: Mo Oct 2022
  * Author: Ayatulloh Ahad R
  * Email: ayatulloh@indiega.net
- * Phone: 085791555506
+ * Phone: 081395250814
  * -------------------------
  * Last Modified: Mon Oct 03 2022
  * Modified By: Ayatulloh Ahad R
@@ -21,17 +21,17 @@
  * Program ini dibuat dan dikembangkan untuk dapat mengirim pesan Whatsapp melalui whatsApp api yang dapat diinstal sendiri di dalam server kita. 
  * untuk lebih detailnya anda dapat melihat dokumentasi pada homepage library ini di
  * 
- * https://github.com/pranasucitra/WhatsAppHelper
+ * https://github.com/pranasucitra/WhatsappGatewayServices
  * 
  * Jika anda ingin membantu dan mengembangkan program ini untuk lebih baik kedepan anda dapat Fork repository ini
  * dan pull-request fitur atau update terbarunya.
  */
 
-namespace pranasucitra\WhatsAppHelper;
+namespace pranasucitra\WhatsappGatewayServices;
 
-use pranasucitra\WhatsAppHelper\Traits\FormatPhoneTrait;
-use pranasucitra\WhatsAppHelper\Traits\GetSetTrait;
-use pranasucitra\WhatsAppHelper\Traits\GlobalTrait;
+use pranasucitra\WhatsappGatewayServices\Traits\FormatPhoneTrait;
+use pranasucitra\WhatsappGatewayServices\Traits\GetSetTrait;
+use pranasucitra\WhatsappGatewayServices\Traits\GlobalTrait;
 use Exception;
 
 class WhatsAppSG

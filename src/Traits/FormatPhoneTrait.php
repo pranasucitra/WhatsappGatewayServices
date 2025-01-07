@@ -5,7 +5,7 @@
 * Created Date: Mo Oct 2022
 * Author: Ayatulloh Ahad R
 * Email: ayatulloh@indiega.net
-* Phone: 085791555506
+* Phone: 081395250814
 * -------------------------
 * Last Modified: Mon Oct 03 2022
  * Modified By: Ayatulloh Ahad R
@@ -21,7 +21,7 @@
  * 1. menambahkan locale untuk kode negara. Default ID
  */
 
-namespace pranasucitra\WhatsAppHelper\Traits;
+namespace pranasucitra\WhatsappGatewayServices\Traits;
 
 use Exception;
 
@@ -56,14 +56,14 @@ trait FormatPhoneTrait
         }
     }
 
-	/**
-	 * Set the value of locale
-	 * @param   string  $locale  
-	 * @return  self
-	 */
-	public function setLocale(string $locale)
-	{
-		$this->locale = $locale;
-		return $this;
-	}
+    /**
+     * Set the value of locale
+     * @param   string  $locale  
+     * @return  self
+     */
+    public function setLocale(string $locale)
+    {
+        $this->locale = $locale;
+        return $this;
+    }
 }
